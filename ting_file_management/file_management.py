@@ -12,7 +12,6 @@ def txt_importer(path_file):
         print(f"Arquivo {path_file} não encontrado", file=sys.stderr)
         return None
 
-    print(linhas)
     return linhas
 
 
