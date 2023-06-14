@@ -15,6 +15,12 @@ Instalação do projeto
   python3 -m pip install -r dev-requirements.txt
 ```
 
+Para fazer o teste utilize a seguinte instrução dentro do ambiente .venv
+
+```bash
+  python3 -m pytest -s -vv
+```
+
 ## Funcionalidades
 
 ### **Dentro da pasta ting_file_management existe:**
