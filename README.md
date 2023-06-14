@@ -17,9 +17,7 @@ Instalação do projeto
 
 ## Funcionalidades
 
-O gerenciamento funciona da seguinte forma.
-
-**Dentro da pasta ting_file_management existe:**
+### **Dentro da pasta ting_file_management existe:**
 
 - O arquivo **queue.py** é uma classe de gerenciamento de fila FIFO.
 
@@ -37,7 +35,7 @@ _file_metadata - é a função que mostra um elemento expecifico da fila com um 
 
 - O arquivo **abstract_queue.py** é uma classe abstrata de Queue.
 
-**Dentro da pasta ting_word_searches existe:**
+### **Dentro da pasta ting_word_searches existe:**
 
 - O arquivo **word_search.py** que tem duas funções:
 
@@ -45,7 +43,7 @@ _exists_word - Faz uma pesquisa na queue e retorna em quantas linhas aconteceram
 
 _search_by_word - Faz uma pesquisa na queue e retorna em quantas linhas, e também quais linhas aconteceram ocorrências de qualquer palavra passada no parâmetro da função;_
 
-**Dentro da pasta tests em priority_queue existe:**
+### **Dentro da pasta tests em priority_queue existe:**
 
 - O arquivo **test_priority_queue.py** realiza testes da função priority_queue.
 
